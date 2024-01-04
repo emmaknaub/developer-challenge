@@ -1,0 +1,18 @@
+#root main {
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	background-color: #c0ffee;
+	color: #000000;
+
+	font-family: "Lobster";
+	font-size: 2rem;
+}
