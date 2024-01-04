@@ -25,6 +25,6 @@ Recreate this page, using React & TypeScript (with functional components and hoo
 
 1. **Google whatever you want. Ask as many questions as you need.**
 
-2. **Ensure the entire project is linted and error-free according the `.eslintrc`.**
+2. **Ensure the entire project is linted and error-free according to the `.eslintrc`.**
 
 3. **You may install external npm packages if necessary, but it is encouraged to refrain from installing too many. We want to see YOUR code.**
