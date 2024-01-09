@@ -10,9 +10,176 @@
 	align-items: center;
 	flex-direction: column;
 
-	background-color: #c0ffee;
+	background-color: #7754da;
 	color: #000000;
 
 	font-family: "Lobster";
 	font-size: 2rem;
 }
+
+.iphone-pro-max {
+	background-color: #7754da;
+	height: 896px;
+	position: relative;
+	width: 414px;
+  }
+  
+  .iphone-pro-max .overlap {
+	background-color: #da54bc;
+	border-radius: 200px;
+	height: 16px;
+	left: 163px;
+	position: absolute;
+	top: 844px;
+	width: 78px;
+  }
+  
+  .iphone-pro-max .text-wrapper {
+	color: #ffffff;
+	font-family: "Jura-Bold", Helvetica;
+	font-size: 11px;
+	font-weight: 700;
+	height: 13px;
+	left: 10px;
+	letter-spacing: 0;
+	line-height: normal;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	white-space: nowrap;
+  }
+  
+  .iphone-pro-max .overlap-group {
+	background-color: #ffffff;
+	border-radius: 50px;
+	box-shadow: 0px 12px 25px #00000040;
+	height: 600px;
+	left: 42px;
+	position: absolute;
+	top: 148px;
+	width: 330px;
+  }
+  
+  .iphone-pro-max .COVER-IMAGE {
+	height: 230px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 330px;
+	border-top-right-radius: 50px;
+	border-top-left-radius: 50px;
+  }
+
+  .iphone-pro-max .product-wrapper {
+	position: absolute;
+	width: 270px;
+	height: 200px;
+	top: 200px;
+	display: flex;
+	justify-content: flex-start;
+	margin: 30px;
+  }
+  
+  .iphone-pro-max .product-title {
+	color: #000000;
+	font-family: "Lobster";
+	font-size: 2rem;
+	left: 30px;
+	position: absolute;
+	white-space: wrap;
+	width: 270px;
+	display: block;
+	flex-basis: auto;
+ 	align-self: auto;
+  }
+  
+  .iphone-pro-max .product-description {
+	color: #000000;
+	font-family: "Jura";
+	font-size: 1rem;
+	left: 30px;
+	line-height: normal;
+	position: absolute;
+	width: 270px;
+	display: block;
+	flex-basis: auto;
+  	align-self: auto;
+  }
+  
+  .iphone-pro-max .div-wrapper {
+	background-color: #da54bc;
+	border-radius: 20px;
+	height: 58px;
+	left: 30px;
+	position: absolute;
+	top: 512px;
+	width: 270px;
+  }
+  
+  .iphone-pro-max .text-wrapper-2 {
+	color: #ffffff;
+	font-family: "Jura-Bold", Helvetica;
+	font-size: 24px;
+	font-weight: 700;
+	left: 38px;
+	letter-spacing: 0;
+	line-height: normal;
+	position: absolute;
+	top: 14px;
+	white-space: nowrap;
+  }
+  
+  .iphone-pro-max .logo-instance {
+	height: 45px !important;
+	left: 88px !important;
+	position: absolute !important;
+	top: 90px !important;
+	width: 143px !important;
+  }
+  
+  .iphone-pro-max .text-wrapper-3 {
+	color: #ffffff;
+	font-family: "Jura-Bold", Helvetica;
+	font-size: 11px;
+	font-weight: 700;
+	height: 13px;
+	left: 97px;
+	letter-spacing: 0;
+	line-height: normal;
+	position: absolute;
+	text-align: center;
+	top: 844px;
+	white-space: nowrap;
+  }
+  
+  .iphone-pro-max .text-wrapper-4 {
+	color: #ffffff;
+	font-family: "Jura-Bold", Helvetica;
+	font-size: 11px;
+	font-weight: 700;
+	height: 13px;
+	left: 264px;
+	letter-spacing: 0;
+	line-height: normal;
+	position: absolute;
+	text-align: center;
+	top: 844px;
+	white-space: nowrap;
+  }
+  
+  .iphone-pro-max .PERSON {
+	height: 23px;
+	left: 51px;
+	position: absolute;
+	top: 840px;
+	width: 23px;
+  }
+  
+  .iphone-pro-max .CART {
+	height: 17px;
+	left: 341px;
+	position: absolute;
+	top: 842px;
+	width: 18px;
+  }
+  
