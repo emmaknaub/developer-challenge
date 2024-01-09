@@ -14,7 +14,7 @@ export const PetFoodText = (): JSX.Element => {
         buttonStyle.backgroundColor='';
     }
 	return (
-		<div className="pet-food-text" style={buttonStyle}
+		<div className="footer-text" style={buttonStyle}
 			onMouseOver={()=>setOver(true)} 
 			onMouseOut={()=>setOver(false)}>PET FOOD</div>
 	);

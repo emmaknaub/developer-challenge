@@ -15,7 +15,7 @@ export const CartIcon = (): JSX.Element => {
         buttonStyle.backgroundColor='';
     }
 	return (
-		<img className="cart-icon" alt="Cart icon" src={cart} style={buttonStyle}
+		<img className="footer-icon" alt="Cart icon" src={cart} style={buttonStyle}
 			onMouseOver={()=>setOver(true)} 
 			onMouseOut={()=>setOver(false)}/>
 	);

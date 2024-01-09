@@ -6,6 +6,6 @@ export const ProductDetails = (): JSX.Element => {
 				Effervescent frosting imbued with tart unicorn tears and expired rainbows, piped delicately upon a delectable
 				confectionary surprise!
 			</p>
-		  </div>
+		</div>
 	);
-  }
+}
