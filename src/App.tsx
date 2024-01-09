@@ -3,6 +3,8 @@ import {Logo} from './components/Logo';
 import { Card } from "./components/Card";
 import { Footer } from "./components/Footer";
 
+// React Components can be found in 'components' folder
+
 function App() {
 
 	return (
