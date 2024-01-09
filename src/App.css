@@ -17,14 +17,14 @@
 	font-size: 2rem;
 }
 
-.iphone-pro-max {
+.wrapper {
 	background-color: #7754da;
 	height: 896px;
 	position: relative;
 	width: 414px;
   }
   
-  .iphone-pro-max .overlap {
+  .wrapper .active-page {
 	background-color: #da54bc;
 	border-radius: 200px;
 	height: 16px;
@@ -34,9 +34,9 @@
 	width: 78px;
   }
   
-  .iphone-pro-max .text-wrapper {
+  .wrapper .desserts-text {
 	color: #ffffff;
-	font-family: "Jura-Bold", Helvetica;
+	font-family: "Jura";
 	font-size: 11px;
 	font-weight: 700;
 	height: 13px;
@@ -49,7 +49,7 @@
 	white-space: nowrap;
   }
   
-  .iphone-pro-max .overlap-group {
+  .wrapper .card {
 	background-color: #ffffff;
 	border-radius: 50px;
 	box-shadow: 0px 12px 25px #00000040;
@@ -60,7 +60,7 @@
 	width: 330px;
   }
   
-  .iphone-pro-max .COVER-IMAGE {
+  .wrapper .cupcakes-image {
 	height: 230px;
 	left: 0;
 	position: absolute;
@@ -70,43 +70,34 @@
 	border-top-left-radius: 50px;
   }
 
-  .iphone-pro-max .product-wrapper {
+  .wrapper .product-wrapper {
 	position: absolute;
 	width: 270px;
 	height: 200px;
-	top: 200px;
-	display: flex;
+	top: 250px;
+	display: block;
 	justify-content: flex-start;
 	margin: 30px;
   }
   
-  .iphone-pro-max .product-title {
+  .wrapper .product-title {
 	color: #000000;
 	font-family: "Lobster";
 	font-size: 2rem;
-	left: 30px;
-	position: absolute;
-	white-space: wrap;
 	width: 270px;
-	display: block;
-	flex-basis: auto;
- 	align-self: auto;
+	margin-bottom: 20px;
+	text-align: left;
   }
   
-  .iphone-pro-max .product-description {
+  .wrapper .product-description {
 	color: #000000;
 	font-family: "Jura";
 	font-size: 1rem;
-	left: 30px;
-	line-height: normal;
-	position: absolute;
+	text-align: left;
 	width: 270px;
-	display: block;
-	flex-basis: auto;
-  	align-self: auto;
   }
   
-  .iphone-pro-max .div-wrapper {
+  .wrapper .button-wrapper {
 	background-color: #da54bc;
 	border-radius: 20px;
 	height: 58px;
@@ -116,9 +107,9 @@
 	width: 270px;
   }
   
-  .iphone-pro-max .text-wrapper-2 {
+  .wrapper .button-text {
 	color: #ffffff;
-	font-family: "Jura-Bold", Helvetica;
+	font-family: "Jura";
 	font-size: 24px;
 	font-weight: 700;
 	left: 38px;
@@ -129,7 +120,7 @@
 	white-space: nowrap;
   }
   
-  .iphone-pro-max .logo-instance {
+  .wrapper .logo {
 	height: 45px !important;
 	left: 88px !important;
 	position: absolute !important;
@@ -137,9 +128,9 @@
 	width: 143px !important;
   }
   
-  .iphone-pro-max .text-wrapper-3 {
+  .wrapper .soups-text {
 	color: #ffffff;
-	font-family: "Jura-Bold", Helvetica;
+	font-family: "Jura";
 	font-size: 11px;
 	font-weight: 700;
 	height: 13px;
@@ -152,9 +143,9 @@
 	white-space: nowrap;
   }
   
-  .iphone-pro-max .text-wrapper-4 {
+  .wrapper .pet-food-text {
 	color: #ffffff;
-	font-family: "Jura-Bold", Helvetica;
+	font-family: "Jura";
 	font-size: 11px;
 	font-weight: 700;
 	height: 13px;
@@ -167,7 +158,7 @@
 	white-space: nowrap;
   }
   
-  .iphone-pro-max .PERSON {
+  .wrapper .profile-icon {
 	height: 23px;
 	left: 51px;
 	position: absolute;
@@ -175,7 +166,7 @@
 	width: 23px;
   }
   
-  .iphone-pro-max .CART {
+  .wrapper .cart-icon {
 	height: 17px;
 	left: 341px;
 	position: absolute;

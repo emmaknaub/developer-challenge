@@ -7,19 +7,19 @@ import profile from './assets/user-regular.svg';
 function App() {
 	return (
 		<main>
-			<IphoneProMax/>
+			<ActivePage/>
 		</main>
 	);
 }
 
-export const IphoneProMax = (): JSX.Element => {
+export const ActivePage = (): JSX.Element => {
 	return (
-	  <div className="iphone-pro-max">
-		<div className="overlap">
-		  <div className="text-wrapper">DESSERTS</div>
+	  <div className="wrapper">
+		<div className="active-page">
+		  <div className="desserts-text">DESSERTS</div>
 		</div>
-		<div className="overlap-group">
-		  <img className="COVER-IMAGE" alt="Cover IMAGE" src={cupcakes} />
+		<div className="card">
+		  <img className="cupcakes-image" alt="Image of cupcakes" src={cupcakes} />
 		  <div className="product-wrapper">
 			<h1 className="product-title">Unicorn Sparkle Cupcakes🦄✨</h1>
 			<p className="product-description">
@@ -27,15 +27,15 @@ export const IphoneProMax = (): JSX.Element => {
 				confectionary surprise!
 			</p>
 		  </div>
-		  <div className="div-wrapper">
-			<div className="text-wrapper-2">ORDER A DOZEN</div>
+		  <div className="button-wrapper">
+			<div className="button-text">ORDER A DOZEN</div>
 		  </div>
 		</div>
-		<img className="logo-instance" src={logo}/>
-		<div className="text-wrapper-3">SOUPS</div>
-		<div className="text-wrapper-4">PET FOOD</div>
-		<img className="PERSON" alt="Person" src="PERSON.png" />
-		<img className="CART" alt="Cart" src="CART.png" />
+		<img className="logo" src={logo}/>
+		<div className="soups-text">SOUPS</div>
+		<div className="pet-food-text">PET FOOD</div>
+		<img className="profile-icon" alt="Profile icon" src={profile} />
+		<img className="cart-icon" alt="Cart icon" src={cart} />
 	  </div>
 	);
   };
