@@ -1,142 +1,166 @@
 #root main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	position: relative;
 	left: 0;
 	right: 0;
 	top: 0;
 	bottom: 0;
-	position: relative;
-
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
 
 	background-color: #7754da;
-	color: #000000;
 
 	font-family: "Lobster";
 	font-size: 2rem;
+	color: #000000;
 }
 
 .app {
-	background-color: #7754da;
-	height: 900px;
-	position: relative;
-	width: 330px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+
+	position: relative;
+
+	width: 330px;
+	height: 900px;
+	background-color: #7754da;
 }
-  
+
 .app .card {
-	background-color: #ffffff;
-	border-radius: 50px;
-	box-shadow: 0px 12px 25px #00000040;
-	height: 600px;
 	position: absolute;
 	top: 148px;
+
 	width: 330px;
+	height: 600px;
+	border-radius: 50px;
+	background-color: #ffffff;
+
+	box-shadow: 0px 12px 25px #00000040;
 }
-  
+
 .app .cupcakes-image {
-	height: 230px;
-	left: 0;
 	position: absolute;
+	left: 0;
 	top: 0;
+
 	width: 330px;
-	border-top-right-radius: 50px;
+	height: 230px;
 	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
 }
 
 .app .product-wrapper {
-	position: absolute;
-	width: 270px;
-	height: 200px;
-	top: 250px;
 	display: block;
 	justify-content: flex-start;
+
+	position: absolute;
+	top: 250px;
+
+	width: 270px;
+	height: 200px;
 	margin: 30px;
 }
-  
+
 .app .product-title {
-	color: #000000;
+	margin-bottom: 20px;
+
 	font-family: "Lobster";
 	font-size: 2rem;
-	margin-bottom: 20px;
 	text-align: left;
-}
-  
-.app .product-description {
 	color: #000000;
+}
+
+.app .product-description {
 	font-family: "Jura";
 	font-size: 1rem;
 	text-align: left;
+	color: #000000;
 }
-  
+
 .app .button-wrapper {
-	background-color: #da55bd;
-	border-radius: 20px;
-	height: 58px;
-	left: 30px;
-	position: absolute;
-	top: 512px;
-	width: 270px;
-	cursor: pointer;
 	display: flex;
-	justify-content: center;
 	align-items: center;
+	justify-content: center;
+
+	position: absolute;
+	left: 30px;
+	top: 512px;
+
+	width: 270px;
+	height: 58px;
+	border-radius: 20px;
+	background-color: #da55bd;
+
+	cursor: pointer;
 }
-  
+
 .app .button-text {
-	color: #ffffff;
+	position: absolute;
+
 	font-family: "Jura";
 	font-size: 1.5rem;
+	color: #ffffff;
+
 	line-height: normal;
-	position: absolute;
 	cursor: pointer;
 }
-  
+
 .app .logo {
-	height: 45px;
-	left: 45px;
 	position: absolute;
+	left: 45px;
 	top: 90px;
+
+	height: 45px;
+
 	cursor: pointer;
 }
 
 .footer-icon {
 	display: block;
-	border-radius: 10px;
+
 	padding: 7px;
+	border-radius: 10px;
+
 	cursor: pointer;
 }
 
 .footer-text {
-	font-size: 0.8rem;
-	font-family: "Jura";
-	color: #ffffff;
 	display: block;
-	border-radius: 20px;
+
 	padding: 5px 10px;
+	border-radius: 20px;
+
+	font-family: "Jura";
+	font-size: 0.8rem;
+	color: #ffffff;
+
 	cursor: pointer;
 }
 
 .desserts-wrapper {
-	background-color: #da55bd;
-	border-radius: 20px;
-	cursor: pointer;
 	display: block;
+
+	border-radius: 20px;
+	background-color: #da55bd;
+
+	cursor: pointer;
 }
 
 .app .footer-wrapper {
-	position: absolute;
-	bottom: 0;
-	width: 330px;
-	padding-top: 50px;
-	padding-bottom: 30px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: center;
 	align-content: normal;
+	align-items: center;
+	justify-content: space-around;
+
+	position: absolute;
+	bottom: 0;
+
+	width: 330px;
+	padding-bottom: 30px;
+	padding-top: 50px;
 }
