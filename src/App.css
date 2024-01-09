@@ -19,13 +19,16 @@
 
 .wrapper {
 	background-color: #7754da;
-	height: 896px;
+	height: 900px;
 	position: relative;
-	width: 414px;
+	width: 330px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
   }
-  
+  /*
   .wrapper .active-page {
-	background-color: #da54bc;
+	background-color: #da55bd;
 	border-radius: 200px;
 	height: 16px;
 	left: 163px;
@@ -33,28 +36,13 @@
 	top: 844px;
 	width: 78px;
   }
-  
-  .wrapper .desserts-text {
-	color: #ffffff;
-	font-family: "Jura";
-	font-size: 11px;
-	font-weight: 700;
-	height: 13px;
-	left: 10px;
-	letter-spacing: 0;
-	line-height: normal;
-	position: absolute;
-	text-align: center;
-	top: 0;
-	white-space: nowrap;
-  }
+  */
   
   .wrapper .card {
 	background-color: #ffffff;
 	border-radius: 50px;
 	box-shadow: 0px 12px 25px #00000040;
 	height: 600px;
-	left: 42px;
 	position: absolute;
 	top: 148px;
 	width: 330px;
@@ -98,7 +86,7 @@
   }
   
   .wrapper .button-wrapper {
-	background-color: #da54bc;
+	background-color: #da55bd;
 	border-radius: 20px;
 	height: 58px;
 	left: 30px;
@@ -122,55 +110,88 @@
   
   .wrapper .logo {
 	height: 45px;
-	left: 88px;
+	left: 45px;
 	position: absolute;
 	top: 90px;
 	width: 143px;
   }
-  
-  .wrapper .soups-text {
-	color: #ffffff;
+
+  .profile-icon {
+	display: block;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: auto;
+	align-self: auto;
+	order: 0;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+.shopping-cart-icon {
+	display: block;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: auto;
+	align-self: auto;
+	order: 0;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+.soups-text {
+	font-size: 1rem;
 	font-family: "Jura";
-	font-size: 11px;
-	font-weight: 700;
-	height: 13px;
-	left: 97px;
-	letter-spacing: 0;
-	line-height: normal;
-	position: absolute;
-	text-align: center;
-	top: 844px;
-	white-space: nowrap;
-  }
-  
-  .wrapper .pet-food-text {
 	color: #ffffff;
+	display: block;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: auto;
+	align-self: auto;
+	order: 0;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+.desserts-text {
+	font-size: 1rem;
 	font-family: "Jura";
-	font-size: 11px;
-	font-weight: 700;
-	height: 13px;
-	left: 264px;
-	letter-spacing: 0;
-	line-height: normal;
+	color: #ffffff;
+	display: block;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: auto;
+	align-self: auto;
+	order: 0;
+	background-color: #da55bd;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+.pet-food-text {
+	font-size: 1rem;
+	font-family: "Jura";
+	color: #ffffff;
+	display: block;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: auto;
+	align-self: auto;
+	order: 0;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+.wrapper .footer-wrapper {
 	position: absolute;
-	text-align: center;
-	top: 844px;
-	white-space: nowrap;
-  }
-  
-  .wrapper .profile-icon {
-	height: 23px;
-	left: 51px;
-	position: absolute;
-	top: 840px;
-	width: 23px;
-  }
-  
-  .wrapper .cart-icon {
-	height: 17px;
-	left: 341px;
-	position: absolute;
-	top: 842px;
-	width: 18px;
+	bottom: 0;
+	width: 330px;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-end;
+	align-content: normal;
   }
   
