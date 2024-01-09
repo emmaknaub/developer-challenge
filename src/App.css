@@ -17,7 +17,7 @@
 	font-size: 2rem;
 }
 
-.wrapper {
+.app {
 	background-color: #7754da;
 	height: 900px;
 	position: relative;
@@ -27,7 +27,7 @@
 	align-items: center;
   }
   /*
-  .wrapper .active-page {
+  .app .active-page {
 	background-color: #da55bd;
 	border-radius: 200px;
 	height: 16px;
@@ -38,7 +38,7 @@
   }
   */
   
-  .wrapper .card {
+  .app .card {
 	background-color: #ffffff;
 	border-radius: 50px;
 	box-shadow: 0px 12px 25px #00000040;
@@ -48,7 +48,7 @@
 	width: 330px;
   }
   
-  .wrapper .cupcakes-image {
+  .app .cupcakes-image {
 	height: 230px;
 	left: 0;
 	position: absolute;
@@ -58,7 +58,7 @@
 	border-top-left-radius: 50px;
   }
 
-  .wrapper .product-wrapper {
+  .app .product-wrapper {
 	position: absolute;
 	width: 270px;
 	height: 200px;
@@ -68,7 +68,7 @@
 	margin: 30px;
   }
   
-  .wrapper .product-title {
+  .app .product-title {
 	color: #000000;
 	font-family: "Lobster";
 	font-size: 2rem;
@@ -77,7 +77,7 @@
 	text-align: left;
   }
   
-  .wrapper .product-description {
+  .app .product-description {
 	color: #000000;
 	font-family: "Jura";
 	font-size: 1rem;
@@ -85,7 +85,7 @@
 	width: 270px;
   }
   
-  .wrapper .button-wrapper {
+  .app .button-wrapper {
 	background-color: #da55bd;
 	border-radius: 20px;
 	height: 58px;
@@ -93,9 +93,10 @@
 	position: absolute;
 	top: 512px;
 	width: 270px;
+	cursor: pointer;
   }
   
-  .wrapper .button-text {
+  .app .button-text {
 	color: #ffffff;
 	font-family: "Jura";
 	font-size: 24px;
@@ -106,14 +107,16 @@
 	position: absolute;
 	top: 14px;
 	white-space: nowrap;
+	cursor: pointer;
   }
   
-  .wrapper .logo {
+  .app .logo {
 	height: 45px;
 	left: 45px;
 	position: absolute;
 	top: 90px;
 	width: 143px;
+	cursor: pointer;
   }
 
   .profile-icon {
@@ -124,18 +127,20 @@
 	align-self: auto;
 	order: 0;
 	border-radius: 20px;
-	padding: 5px;
+	padding: 7px;
+	cursor: pointer;
 }
 
-.shopping-cart-icon {
+.cart-icon {
 	display: block;
 	flex-grow: 0;
 	flex-shrink: 1;
 	flex-basis: auto;
 	align-self: auto;
 	order: 0;
-	border-radius: 20px;
-	padding: 5px;
+	border-radius: 10px;
+	padding: 7px;
+	cursor: pointer;
 }
 
 .soups-text {
@@ -150,6 +155,7 @@
 	order: 0;
 	border-radius: 20px;
 	padding: 5px;
+	cursor: pointer;
 }
 
 .desserts-text {
@@ -165,6 +171,7 @@
 	background-color: #da55bd;
 	border-radius: 20px;
 	padding: 5px;
+	cursor: pointer;
 }
 
 .pet-food-text {
@@ -179,9 +186,10 @@
 	order: 0;
 	border-radius: 20px;
 	padding: 5px;
+	cursor: pointer;
 }
 
-.wrapper .footer-wrapper {
+.app .footer-wrapper {
 	position: absolute;
 	bottom: 0;
 	width: 330px;
