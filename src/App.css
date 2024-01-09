@@ -3,7 +3,7 @@
 	right: 0;
 	top: 0;
 	bottom: 0;
-	position: absolute;
+	position: relative;
 
 	display: flex;
 	justify-content: center;
@@ -121,11 +121,11 @@
   }
   
   .wrapper .logo {
-	height: 45px !important;
-	left: 88px !important;
-	position: absolute !important;
-	top: 90px !important;
-	width: 143px !important;
+	height: 45px;
+	left: 88px;
+	position: absolute;
+	top: 90px;
+	width: 143px;
   }
   
   .wrapper .soups-text {
